@@ -1,0 +1,69 @@
+{
+    "version": "open-attestation/2.0",
+    "data": {
+        "id": "0c104718-b5d8-486e-a404-24295a5ae949:string:b33c8bc8-d6c1-4c94-bdfe-4eb3b72baf56",
+        "issuedOn": "f1c94f12-3d1f-4757-8672-d17c5bd78dfa:string:2022-05-07T00:00:00+08:00",
+        "name": "7876120e-a31a-4a10-bbf6-c7634a61645b:string:Introducing Coding for Beginners: an HTML and CSS Online Course",
+        "admissionDate": "7d44ebb9-e87b-4441-8462-78eb7a8b324b:string:2022-05-04T00:00:00+08:00",
+        "graduationDate": "16969f0e-51a0-48e9-b0d5-577cc4c64f46:string:2022-05-07T00:00:00+08:00",
+        "issuers": [
+            {
+                "name": "ccba8a67-4123-4fa6-b4bc-2cb2d8ecf9c9:string:BitDegree",
+                "documentStore": "dbf564af-e17b-4142-b256-6ce719a9705f:string:0xC2eC08AEafE5232bA6019365Da08b34ffc437176",
+                "identityProof": {
+                    "type": "64191862-2499-4736-97a6-5e3aa63004e3:string:DNS-TXT",
+                    "location": "37b99188-31e4-490a-86bd-9093c93e19a6:string:bitdegree.org"
+                }
+            }
+        ],
+        "recipient": {
+            "name": "22c4270c-8104-47d4-9ff2-782dfe17d04f:string:Malik Muhammed",
+            "did": "7e0a6367-465a-4c47-835a-df22d892541d:string:BDG1225182",
+            "url": "4f2ead4e-67d1-47c1-8e72-3f42816482cd:string:https://www.bitdegree.org/user/malik-muhammed1225182/profile",
+            "email": "95d9776c-5aeb-4d19-9732-b1c9eb2b3a53:string:certs+1225182@bitdegree.org",
+            "studentId": "3c06f7d4-cdd4-41db-a3dd-bf26243a9d64:number:1225182"
+        },
+        "transcript": [
+            {
+                "name": "a6d0744d-a1fe-4fd5-b966-925dd320928c:string:Introduction to HTML",
+                "grade": "e16e85a1-f7ec-4523-a737-0623d1a8289b:number:10",
+                "courseCode": "6353be71-1f6e-46e6-8ddc-9fb00b98fb60:string:BDG26581",
+                "courseCredit": "3df63399-1550-47b5-b8ff-5b91e1ee4367:number:1"
+            },
+            {
+                "name": "05b81e52-eb20-4859-8331-48b3ad90ddf9:string:Introduction to CSS",
+                "grade": "12136270-8d6a-4de6-bfe5-308b78e0e41f:number:10",
+                "courseCode": "aa3941c8-7111-4985-a67f-ebea5b072c9d:string:BDG26582",
+                "courseCredit": "b54a5208-ede6-4e3d-b4ea-4af4a747ddf7:number:1"
+            },
+            {
+                "name": "4eeea5e6-006f-4459-837c-e55290383b85:string:Fixing and Uploading",
+                "grade": "8d2313e2-a06a-4648-8296-773200bae38e:number:10",
+                "courseCode": "b8e1bcb5-605c-49ac-9ce7-9e659f1ed503:string:BDG26583",
+                "courseCredit": "a0e65cdf-a027-48ef-8b69-f7860c3116e7:number:1"
+            }
+        ]
+    },
+    "schema": "open-attestation/2.0",
+    "privacy": {
+        "obfuscatedData": []
+    },
+    "signature": {
+        "type": "SHA3MerkleProof",
+        "targetHash": "739acd3775397df003ecd802280f5b9b791d1716a8dd116799a7d92e44685e45",
+        "proof": [
+            "036aa89b51ad0686a4cc89664479ce8bb29ef804079421be6b4e489fbf5c3aae",
+            "ddfdbe1b09082e448661347c63fcf79ca602892fcfc08831b34a8a8c9f94162c",
+            "9e0f2f4e200e902a20cf75344ae47b83c2f4568d6b01627455573a1ebd2f20f5",
+            "c44936feb0fdeb20b0e58a2fd8a243ed56a5a0631011418b45d1a6c9ea3dc611",
+            "922bbe3e711a6719f680f049b6e083acaf77ad9cf46fb9adfa18dfc494c62db0",
+            "8edb968a27beb745ace5121bc97779b5c20351db144689b9050243bcd8c8d857",
+            "e40129104d200941520531a3aaeb2362a5795b193de114d1d00ac30b29bf7d89",
+            "618c0bd8854f51a47cad363d02516fee42a59023df98c6318f9a6499a804aa62",
+            "27c9d3085b8938a8cd7682919deb136604fa11dcd2307ee18a96ddeb68d0736d",
+            "b8938ba65be40e046616c39d0522f40004d72c591430e518c46d792fa764c313",
+            "1a6c065fe13fdf7013af075d6e7cad5078c708891f6bdca12b2b20a76d0e2ab3"
+        ],
+        "merkleRoot": "a48bb346bb5a7203352b740f21fc860802ba98a2fcb5766af800dda625d876a7"
+    }
+}
